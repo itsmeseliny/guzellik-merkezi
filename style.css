@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(indir.jpeg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.441)
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Ms Madi;
+    color: rgb(91, 65, 89);
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #ffffff;
+    border-radius: 2px;   
+    transition: 3s; 
+}
+
+.container .center{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 280px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: rgb(182, 142, 219);
+    border: solid 1px rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: 3s;
+}
+
+.buttons button:hover{
+    background: rgb(239, 192, 199);
+}
+
